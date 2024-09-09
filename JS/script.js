@@ -5,7 +5,7 @@ navBar.classList.toggle("show_nav")
 });
 
 const drop = document.querySelectorAll(".all_p_element");
-const dropIt = document.querySelector(".all_p_icon").addEventListener("click", function(){
+const dropIt = document.querySelectorAll(".all_p_icon").addEventListener("click", function(){
     drop.classList.toggle("_show")
 });
 
